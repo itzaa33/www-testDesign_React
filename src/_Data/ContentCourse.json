@@ -1,0 +1,96 @@
+{
+    "ContentCourse": [
+        {
+            "price": 1500,
+            "textButton": "ชำระเงินเรียนไม่เก็บหน่วยกิต",
+            "lists": [
+                {
+                    "description": "สามารถเรียนที่ไหน เมื่อไหร่ก็ได้ตลอดชีพ",
+                    "achieve": true
+                },
+                {
+                    "description": "เนื้อหาทั้งหมด 40 วิดีโอ ความยาวรวมกัน 7 ชั่วโมง 46 นาที",
+                    "achieve": true
+                },
+                {
+                    "description": "แบบทดสอบทั้งหมด 4 แบบทดสอบ",
+                    "achieve": false
+                },
+                {
+                    "description": "ข้อสอบทั้งหมด 1 ข้อสอบ",
+                    "achieve": false
+                },
+                {
+                    "description": "เก็บหน่วยกิตเรียนปริญญาโท",
+                    "achieve": false
+                },
+                {
+                    "description": "ประกาศนียบัตร",
+                    "achieve": false
+                }
+            ],
+            "style": {
+                "borderColor": "#676767",
+                "lineColor":"#ffffff",
+                "button": {
+                    "normal":{
+                        "colorText":"#024825",
+                        "colorBorder":"#024825",
+                        "colorBackground":"#ffffff"
+                    },
+                    "hover":{
+                        "colorText":"#ffffff",
+                        "colorBorder":"#024825",
+                        "colorBackground":"#024825"
+                    }
+                }
+            }
+        },
+        {
+            "price": 4500,
+            "textButton": "ชำระเงินเรียนเก็บหน่วยกิต",
+            "lists": [
+                {
+                    "description": "สามารถเรียนที่ไหน เมื่อไหร่ก็ได้ตลอดชีพ",
+                    "achieve": true
+                },
+                {
+                    "description": "เนื้อหาทั้งหมด 40 วิดีโอ ความยาวรวมกัน 7 ชั่วโมง 46 นาที",
+                    "achieve": true
+                },
+                {
+                    "description": "แบบทดสอบทั้งหมด 4 แบบทดสอบ",
+                    "achieve": true
+                },
+                {
+                    "description": "ข้อสอบทั้งหมด 1 ข้อสอบ",
+                    "achieve": true
+                },
+                {
+                    "description": "เก็บหน่วยกิตเรียนปริญญาโท",
+                    "achieve": true
+                },
+                {
+                    "description": "ประกาศนียบัตร",
+                    "achieve": true
+                }
+            ],
+            "style": {
+                "borderColor": "#04542B",
+                "lineColor":"#04542B",
+                "button": {
+                    "normal":{
+                        "colorText":"#ffffff",
+                        "colorBorder":"#024825",
+                        "colorBackground":"#024825"
+                    },
+                    "hover":{
+                        "colorText":"#ffffff",
+                        "colorBorder":"#024825",
+                        "colorBackground":"#024825"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+
+.container
+{
+    border-width: 1px;
+    border-style:solid;
+}
+
+.container > .line
+{
+    height:4px;
+
+    margin-bottom:14px;
+}
+
+.container > .container_content
+{
+    padding: 0 15px 15px;
+
+    line-height:20px;
+    letter-spacing: 0.05em;
+
+    color:#676767;
+}
+
+.container_content > .head
+{
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 12px;
+}
+
+.head > .price
+{
+    display:flex;
+    justify-content: center;
+    align-items:baseline;
+    line-height:1;
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.price span
+{
+    font-size: 2em;
+    margin-bottom:8px;
+}
+
+.container_content > .lists
+{
+    font-size: 18px;
+}
+
+.lists > .list
+{
+    width: 100%;
+
+    display: flex;
+}
+
+.list > .icon
+{
+    width: 20px;
+    flex-shrink:0;
+}
+
+.icon > div
+{
+    width: 100%;
+    fill: inherit;
+}
+
+.icon > div > svg
+{
+    width: 100%;
+    fill: inherit;
+}
+
+.list > p
+{
+    display:flex;
+    align-items: center;
+    
+    padding-left: 16px;
+
+    font-size:0.9em;
+
+    line-height:1;
+}
+

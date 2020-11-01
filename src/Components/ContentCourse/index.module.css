@@ -1,6 +1,16 @@
-
-.image
+.container
 {
+    width: 100%;
+    max-width: 1140px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.container > .image
+{
+    width: 100%;
+    
     position: relative;
 
     padding-bottom:56.25%;
@@ -14,4 +24,30 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.container > .container_course
+{
+    width: 100%;
+
+    display: grid;
+    grid-gap: 15px;
+
+    padding: 0 15px;
+    margin: 15px auto;
+
+    font-family: 'thaisans_neueregular',sans-serif;
+}
+
+@media(min-width: 1200px)
+{
+    .container > .image, .container > .container_course
+    {
+        width: 50%;
+    }
+
+    .container > .container_course
+    {
+        margin:auto;
+    }
 }

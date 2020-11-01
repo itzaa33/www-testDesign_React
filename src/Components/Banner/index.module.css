@@ -14,8 +14,14 @@
 
 .container > .content
 {
+    width: 100%;
+    max-width: 1140px;
+
+    padding:0 15px;
     padding-top: 35px;
     padding-bottom: 40px;
+    
+    margin: auto;
 }
 
 .content > .sub_title
@@ -129,6 +135,8 @@
 
     color:#00532A;
     background-color: inherit;
+
+    cursor: pointer;
 }
 
 @media(hover :hover)

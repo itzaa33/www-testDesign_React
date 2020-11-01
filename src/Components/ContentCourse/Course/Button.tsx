@@ -17,7 +17,7 @@ const Comp: React.FC<Props> = (
     const Button = Styled.button`
 
         width: 100%;
-        height:50%;
+        height:50px;
 
         display: inline-block;
         padding:12px;

@@ -7,7 +7,7 @@ const Comp = () =>
 
     return (
         <div className={Styles.container}>
-            <div className={`${Styles.content} content`}>
+            <div className={Styles.content}>
                 <div className={Styles.sub_title}>
                     <img src={"https://skilllane.s3-ap-southeast-1.amazonaws.com/tu/icon-tuxsa.png"} />
                      หลักสูตรปริญญาโทออนไลน์

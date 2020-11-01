@@ -1,0 +1,164 @@
+
+.container
+{
+    margin-bottom:20px;
+
+    font-size: 18px;
+    font-family: 'thaisans_neueregular',sans-serif;
+
+    background-image: url('https://skilllane.s3-ap-southeast-1.amazonaws.com/banner_academic/tu_banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container > .content
+{
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
+.content > .sub_title
+{
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 5px;
+
+    color:#d13434;
+}
+
+.sub_title > img
+{
+    width: 55px;
+    height: 12px;
+
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.content > .title
+{
+    margin-bottom: 12px;
+
+    color:#676767;
+}
+
+.title > h1
+{
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:3;
+
+    font-size: 1.33em;
+    font-weight: 300;
+
+    text-overflow:ellipsis;
+    line-height: 1.1;
+
+    overflow:hidden;
+}
+
+.content .anchor
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.anchor > a
+{
+    max-width: 100%;
+    white-space: nowrap;
+
+    padding: 3px 10px;
+
+    font-size: 14px;
+
+    text-overflow:ellipsis;
+    text-decoration: none;
+    overflow:hidden;
+
+    border: 1px solid #555;
+    border-radius:20px;
+
+    transition: 0.2s;
+
+    color: #555;
+    background-color: white;
+}
+
+.content > .container_reviews
+{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+
+    margin-bottom:12px;
+}
+
+.container_reviews > .reviews
+{
+    display:inline-flex;
+    flex-wrap:wrap;
+
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+.reviews > h3
+{
+    font-size:1.33em;
+    font-weight: 300;
+
+    color: #8E8E8E;
+}
+
+.container_reviews > .share
+{
+    width: 105px;
+    height: 28px;
+
+    padding: 2px 8px;
+
+    border:1px solid #00532A;
+
+    font-size:1em;
+    font-family: 'thaisans_neueregular',sans-serif;
+
+    float:left;
+
+    color:#00532A;
+    background-color: inherit;
+}
+
+@media(hover :hover)
+{
+    .anchor > a:hover
+    {
+        color: white;
+
+        border-color: #00532A;
+        background-color: #00532A;
+    }
+}
+
+@media(min-width: 768px)
+{
+    .title > h1
+    {
+        font-size: 2em;
+    }
+}
+
+@media(min-width: 1200px)
+{
+    .container
+    {
+        height:250px;
+    }
+
+    .title > h1
+    {
+        -webkit-line-clamp:2;
+    }
+}

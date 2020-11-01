@@ -1,0 +1,28 @@
+
+.icon_container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-right: 8px;
+}
+
+.icon
+{
+    height:22px;
+    margin-right:2px;
+
+    line-height:1;
+
+    float:left;
+
+    background-image:url('https://www.skilllane.com/assets/raty/star-stroke-5aa3077ffda78ce9885e9a11639d53f22c0fe35392066a7fdcb2a53bc404eb8f.svg');
+    background-repeat:no-repeat;
+}
+
+.icon img
+{
+    width:22px;
+    vertical-align: middle;
+}

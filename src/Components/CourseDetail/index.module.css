@@ -80,6 +80,22 @@
 
 @media(min-width: 1140px)
 {
+    .container
+    {
+        display: flex;
+        flex-direction: row;   
+    }
+    .container > .container_content
+    {
+        width: 75%;
+
+        padding-right:15px;
+    }
+    .container > .container_slidebar
+    {
+        width: 25%;
+    }
+
     .render_desktop
     {
         display: flex;
@@ -90,11 +106,4 @@
         display: none;
     }
 
-    .container > .container_content
-    {
-        width: 75%;
-
-        padding-right:15px;
-    }
-    
 }

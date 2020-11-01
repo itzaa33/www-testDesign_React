@@ -1,11 +1,8 @@
 import React, { useState } from 'react'
 import Styles from './index.module.css'
-import { ReactSVG } from 'react-svg'
 
 import List from './List'
 
-// image
-import Icon from '../../../Images/svg/play.svg'
 
 const Comp = () =>
 {

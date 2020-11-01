@@ -1,0 +1,80 @@
+
+.container
+{
+    width: 100%;
+}
+
+.container > .head
+{
+    display: flex;
+}
+
+.container > .head > img
+{
+    width:100px;
+    height: 100px;
+
+    object-fit:cover;
+    border-radius:50%;
+}
+
+.container > .head > .title
+{
+    margin-left: 10px;
+}
+
+.container > .head > .title > .name
+{
+    font-size:1em;
+    font-weight: 600;
+
+    word-break: break-word;
+
+    color:#00532A;
+
+    cursor: pointer;
+}
+
+.container > .head > .title > .rating
+{
+    display: flex;
+
+    padding: 4px 4px 0;
+
+    font-size:14px;
+
+    line-height:140%;
+}
+
+.rating > .icon
+{
+    width: 20px;
+    height: 20px;
+}
+
+.icon > div > svg
+{
+    width: 100%;
+    height: 100%;
+
+    fill:#555555;
+}
+
+.rating > span
+{
+    padding-left: 4px;
+
+    color:#555555;
+}
+
+.container > .detail
+{
+    padding-top: 12px;
+    padding-left:24px;
+
+    color:#676767;
+
+    list-style-type:disc;   
+
+    word-break: break-word;
+}

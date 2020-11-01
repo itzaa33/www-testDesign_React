@@ -1,0 +1,31 @@
+
+.container
+{
+    width: 100%;
+}
+
+.container > .title
+{
+    width: 100%;
+
+    padding: 9px 15px;
+    margin-bottom:16px;
+    
+    border-bottom:1px solid #cccccc;
+}
+
+.title > h3
+{
+    font-size:1.33em;
+    color:#00532A;
+    line-height:1;
+}
+
+.intermediate
+{
+    padding-bottom:20px;
+
+    border-bottom: 1px solid #CCC;
+
+    margin-bottom: 20px;
+}

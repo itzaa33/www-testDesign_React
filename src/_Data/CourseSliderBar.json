@@ -1,0 +1,28 @@
+{
+    "CourseSliderBar": [
+        {
+            "name": "เมษ์ ศรีพัฒนาสกุล",
+            "image": "https://skilllane.s3.amazonaws.com/users/images/001/162/361/ms/Untitled.png?1566569677",
+            "rating": 4.7,
+            "review": 457,
+            "course": 1,
+            "detail": [
+                "กรรมการผู้จัดการและผู้ร่วมก่อตั้ง Asian Leadership Academy / LUKKID",
+                "ที่ปรึกษาเรื่องการคิดเชิงออกแบบ (Design Thinking) ให้กับบริษัทชั้นนำของประเทศไทย",
+                "จบการศึกษาปริญญาโทสาขา MBA จาก Stanford Graduate School of Business",
+                "จบการศึกษาปริญญาตรีสาขา Bioengineering จาก University of Pennsylvania"
+            ]
+        },
+        {
+            "name": "มหาวิทยาลัยธรรมศาสตร์",
+            "image": "https://skilllane.s3.amazonaws.com/users/images/001/149/067/ms/1200px-Emblem_of_Thammasat_University.svg.png?1565079967",
+            "rating": 4.7,
+            "review": 2500,
+            "course": 25,
+            "detail": [
+                "สถาบันวิชาการชั้นนำของเอเชีย ที่ได้มาตรฐานสากลในการผลิตบัณฑิต การสร้างองค์ความรู้ และการแก้ปัญหาต่าง ๆ",
+                "ยึดมั่นในคุณธรรมและการรับใช้ประชาชน ดังคำขวัญของมหาวิทยาลัยที่กล่าวว่า เป็นเลิศ เป็นธรรม ร่วมนำสังคม"
+            ]
+        }
+    ]
+}

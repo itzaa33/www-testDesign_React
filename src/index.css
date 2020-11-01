@@ -12,7 +12,8 @@ body
 {
     width: 100%;
 
-    font-size: 16px;
+    font-family: 'thaisans_neueregular',sans-serif;
+    font-size: 18px;
 
     background-color:white;
 }

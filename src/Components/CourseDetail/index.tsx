@@ -4,6 +4,7 @@ import Description from './Description'
 import Payment from './Payment'
 import Chat from './Chat'
 import Review from './Review'
+import CourseSliderBar from './CourseSliderBar'
 
 const Comp = () =>
 {
@@ -67,8 +68,9 @@ const Comp = () =>
                         <Review />
                     }
                 </div>
-                <div className={Styles.render_desktop}>
-                </div>
+            </div>
+            <div className={`${Styles.render_desktop} ${Styles.container_slidebar}`}>
+                <CourseSliderBar />
             </div>
         </div>
     )
